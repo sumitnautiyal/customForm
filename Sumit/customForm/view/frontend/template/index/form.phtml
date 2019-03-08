@@ -1,0 +1,28 @@
+<?php
+/**
+* {{controller}} {{action}} template
+*
+* @var $block \Sumit\customForm\Block\Index\Index
+*/
+?>
+
+<!– update content customForm\view\frontend\templates\index\form.phtml –>
+
+<form class=”form ecommerce”
+action=”<?php /* @escapeNotVerified */ echo $block->getFormAction(); ?>”
+id=”ecommerce-form”
+method=”post”
+data-hasrequired=”<?php /* @escapeNotVerified */ echo __(‘* Required Fields’) ?>”
+data-mage-init='{“validation”:{}}’>
+<fieldset class=”fieldset”>
+<legend class=”legend”><span><?php /* @escapeNotVerified */ echo __(‘Sumit customForm Frontend Form Title’) ?></span></legend><br />
+” value=”escapeHtml($this->helper(‘Jute\Ecommerce\Helper\Data’)->getUserName()) ?>” class=”input-text” type=”text” data-validate=”{required:true}”/>
+</div>
+” value=”escapeHtml($this->helper(‘Jute\Ecommerce\Helper\Data’)->getUserEmail()) ?>” class=”input-text” type=”email” data-validate=”{required:true, ‘validate-email’:true}”/>
+</div>
+” value=”” class=”input-text” type=”text” />
+</div>
+</fieldset>
+” class=”action submit primary”>
+</div>
+</form>

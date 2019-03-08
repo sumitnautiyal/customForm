@@ -1,0 +1,7 @@
+<?xml version=”1.0″?>
+<config xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance&#8221;
+xsi:noNamespaceSchemaLocation=”../../../../../lib/internal/Magento/Framework/Module/e
+tc/module.xsd”>
+<module name=”Sumit_customForm” setup_version=”1.0.0″ schema_version=”1.0.0″>
+</module>
+</config>

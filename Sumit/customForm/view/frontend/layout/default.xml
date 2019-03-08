@@ -1,0 +1,15 @@
+<!-- This layout is for footer links to the form	-->
+
+<?xml version=”1.0″?>
+<page xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance&#8221; xsi:noNamespaceSchemaLocation=”urn:magento:framework:View/Layout/etc/page_configuration.xsd”>
+<body>
+<referenceBlock name=”footer_links”>
+<block class=”Magento\Framework\View\Element\Html\Link\Current” name=”ecommerce-link”>
+<arguments>
+<argument name=”label” xsi:type=”string”>Sumit customForm</argument>
+<argument name=”path” xsi:type=”string”>ecommerce/index/index</argument>
+</arguments>
+</block>
+</referenceBlock>
+</body>
+</page>
